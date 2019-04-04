@@ -1,0 +1,88 @@
+command_not_found_handle() {
+        /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
+echo -e '\033[91m'
+cat $PREFIX/etc/g1
+echo -e '''
+ 	 \033[92m88888888OOOO:oo:::..o:oo..::.o:o:...:.......:.....:................ ...........              .8####
+88888888oOo:::Oo::.:::::...::ooo:................::.............. ........ .....              o####
+88888888OOO..oo:....::::..:O.ooo..:.:.............:............... ....... ....  ....         .####
+8888888OoOo:.oOo....:.....:.:o:O..o:.............:..::.........::............ ..               O###
+8888888o:oo:.:o:.:o:......:.::.::::o................o::.......::.............  .               o###
+8888888::Oo:..:o.Oo......:..::.:::::...............:oo:.......:::............  .               .###
+8888888::o:::..o8o:........::..::o:................::O:......:::.............  .     .          8##
+888888O..:.....O:O:...:........::o...o.............:::.....:..o..............        .          :##
+888888o:......oOoo.............o::...o:........:....o.........o... ..........       ...         .8#
+888888o.......oOo..............::.:..::............... ::..o  :... ...... ... .     ...  .       o#
+888888:......:oOO..............::.:..:.............:...::..:..:.. . ........  .     .    .       .#
+888888:.......oO:..............:................:..:...::..:...... ... . ..         . .           8
+88888o:.......:o:.............::................:::........:... ........ ..         .             o
+88888O::......:::.............:.................::.......... .......... . .        .              .
+88888Oo:........oo..............................:.......................   .  .     .             :
+88888Oo:........OO.............................::....... ............... ..   .                   .
+88888Oo........:8o............................................. ...... ....     .                oO
+88888OOoO:.....:::...................................................  ...     .                 :8
+88888O:oo::....:O:.......................................:....  .  ..  ...                       ::
+88888:::o.:....o:.......:.......:.............................. :...                              :
+888#O:o........o........:...................:.........:...........   .                           .O
+88888o:........:................:..........:........::............ . .     .. .                   o
+8888Oo::o.::..:...........:...........:...........::..:......... . ...     .                      :
+8888Oo::oOoo:............:.:..................:......:..:........ ....                             
+888Oo::oooo::..............:::...............:.....o........:....... ..  . ..                      
+##88ooO::::o............:::o:::.....:...:...:.....:...............................                 
+888OooooO:::...::....:oOoooooooo:o:ooooooooooo:::..............:::o:ooooooOooooo::..               
+888OOOoooooOo::oo:::oOO8O8888888OOOOOO8888888OOOoOOOo:::::...:ooOOOOOOOO88OOOOOooooo::..           
+8#88OOOoo:.oOoOOOO:::OO8888888888OOOO88888888888888O8OOooooooOOO88888OOOOOO8OOOOOoooooo::..        
+##8OOOOoooo:oooOO8OOO8888888O888888888888888888OO8OO888OOOOOO888888888OOOO8O8OOOOOooooooo:..       
+##8OOOoOooo:ooO8888888888888888##8888888O888888888888888888O888O::O88O8OO888OOOOOOOOOOooo::.       
+8#8OOOoOooo:oOO888888888888888###888O8888888888888888888888O888:::o88OO888888OOOOOOOOOOooo:..      
+#88Oo8OooOOoO888888##88888O#####8888O88888O8888888888888888O888OooO888O8888O8OOOOOOOOOOooo:..      
+888OOOOooOOoO888888#888888O#8888OOOOoOO8O8OOOOOOOO8888O8OOO::oOOooOOoo:OOOOOOOOOOOOOOOoooo:..      
+88OO8O8OooOoO888888#888888oo::88::::8#8888888888888888O8888.ooooOOo::::888O8O8OOoOOOOOOoooo:.      
+88o8OoOOoO8O88888888888888.:oO88oooo8#888888888O888O888888O:OOOOOOOOO::888O8OOOOOOOOOOOOooo:.      
+#8:O:oOoOO8888888O88#88#88.ooO88:OOO###88888888O8888O8O888O:OOOOOOOOOo:888OOO8OOOOOOOOOooooo..     
+#8:o.o:oOO88O88888###88888.oOOooOOOO8O:O888O8OOO8888888888O:OOOOOOOOOo:88888888OOOooOOOOOooo..     
+##O:o:.:OOO8OO888#8##8:.:::OOOOOOOOOoo::8#888888888888888888888OOOO8888888888888OOOOoOOOOooo:.     
+##8:o:::o8OOoO88O888#8 .o:oOOOOOOOOO8OoO8#8O8OO888888888888::OOoOOoOO:.88888O888OooooOOOOooo:.     
+##8o::::OO8O:O888888#8O88:oOOOOOOOO8##8##8#8O88O888OoOO8888::::OOOOo:..O88OOOO8OOoOOOOOOOOoo:.     
+##8oooo:oOOoo888888888888:OOOOOOOOO8#####8888888888O##88888:OOO88OOOo:.O88O88OO8OoOOOOOOOoOo:.     
+###:::oo:o:oo888#8#88888O:OOOOOOOOO8######88888888888#88888:OO8888OOo:.O888O8O8OOoOOOOOOOOOO:.     
+###o:ooO:oo:O88888888OOOooOOOOOOOOOOOOOO88OOOOOO888888O888O:oOOOOOOooo:oOOO88OOOOoOOOOOOOOOOo.     
+###8::oOo:o:O8#888o88..ooOOOOOOOOOO8####888#88O888OO888OO88O8888OoO888O8888888888OOOOOOOOOOOo.     
+##88:o:ooo:oO8O:..:88:oOOOOOOOOOOOOO###O8#8#8#O####88888888O8888oo:888O8888888888OOOOOOOOOOOo.     
+###8OOooOooO888.::O88o:oOOOOOOOOOOOO8##8##O###O8###888888888888O::.888O88888888OOOOOOOOOOOOOO:    .
+####8OoOOoOo##8:::oOo::oOOOOOOooOOoo8888OO88##O#8O8#8888OO88O888o:O888O8OOO888OOOOOOOOOOOOOOO:    :
+#####8ooOoO88#8.:ooo::oOOOOOOooo888888888#888#8O8888888888OO8888888888OO88O8888O8OOOOOOOOOOOO:    o
+######8ooOOOOoo.:ooOoOOOOooo:::.o88O888888888888888888#O88888888888888OO888888OOOOOOOOOOOOOOO:   ..
+#######OoOO8:   .:oooooo:..      .. :OO8888888OOOOO88888oOOO888888888OO8OO888OOOOOOOoOOOOOOOO..  :o
+########OO88o Oo .....     .::.      oOOo.:O88O888888888#88O888OOOOO8OO8OO8OOOOOOoo::oOOOOOOO.  .oO
+########88O88888.          :oOo.     :OO: .o888888888888888O88OO8OOOOoOooooOOOoo::::..:OOOOOO...oOO
+#########888##88:       ...o88O....  .ooo:.:O88O8OO88888O88O88OOOOOo:o::......::.......:ooOOo..oOOO
+##########88888O:      .oooo888o:oo.  .:::..oOOoO88888O888oOOOO8ooo::..:.................:OOo.:OOOO
+##########888:.        .OOOO888O888:.  .......:o888O##8O88O888OOo::.......................:Oo.OOOOO
+#########O. 8.         :OO888888888:.......:::oo888oO8OO88O888OOo::::.:.......:ooo::::....:Oo.OOOOO
+#########o .8O         :Ooo8888OooO:........::ooO888OOO888O888OOoOOOOoOooooooO8OOOOoOOoo::oOo.oOOOO
+#########o .8o         .:..8888O::o. .......::ooO888888888OOO8OOOOoo:..........:::OOOOOOOooO::OOOOO
+#########: ..          .:..8888O..:........::oOO8888888888O8OO88ooo....oOo..Oo.....oOO8OOOOO:oOOOOO
+######8.:...      .    .ooo88888o::: ......::OO8888888#888888OOoOooOO.:O.O:.888o...:oOOOOOOOooOOOO8
+######o  .:.     ..    :OOO888888888  .....:::O:o888OO88888OOOOOo.OoO:.....oOoooOOoooOOOOOOOoOOOO8O
+######oo.::..........  .OOO888888888......::oo:oO88ooo:O88888888OOO88888OOOOoOO888OOOOOOOOOOoOoo88o
+#######8.:o........... .oooO888OOO88.....::ooooO888OO8O8888888888888888888888888888OOOOOOOOOooOOOOo
+#####88o.oo:........... ...o888o::oo   .:oooOOoOOOOOO8OOOOo888888888888O8OO88888888OOOOOOOOOoooOOoO
+#####88..ooo............   :888:. ..    :OOOOOOOo:O8O88O. :ooO8888O8888O88O888888888O8OOOOOOoOOOoOO
+####88O..oOo.............  .oOO:        oOO8OOOOOO88O8O:. oOOOOOOOoOO88O88O88OOOO888OO8OOOoO:OOOOO8
+###888O .:oO:...............:::.       oO8888OO8OO88OOO   :OOO8888O8888888888888O888888OOOOOO8OoOO8
+###888O  .ooo:........... ...... .   .O8888888888888OO.   .OOO8O88O8888888888888O8888888OOOoOOOOO88
+###888O:o.:ooOo.......      ...::::oO888888888888888Oo   o:OOOOO88O88OO88888OOO8O8888888OOOoOOoOO88
+####888OO:.:ooOO:..      ..:ooOOO8888888888888888888O.   OOOO888888oO88O888O888O88888888OOOoOOOO88O
+###888O:O:.::::oOOo::::oOOOO88888888888888888888888O     ooOO8888888888O888OO88OO88888888OO:oOO8O:o
+###888O. .:::::ooOOOOoooooOO8888888888888888888888O      .::OO88888OOoO88888OOO8O888OOOOOOOo8O88O88
+###888O...:::oOOOoooOoooOOOO888888888888888888888O         .oOOO888O888888888888O888o88OO8oO8888888
+##8888O...::ooOOOOOOOooo::oOOO8888888888888888888:         .oOOoO88O888888888888O888Oo8o8OoO8888888
+###8888:..::oooOOOOOOOOo:oOOOOOOOOOOO888888888888           :oOOO888888888888888O8888o8oOOOO8888888
+###8888o..::ooOOOO8OOOOOOOOOOOOOOOOOOO8888888888:           ooOOO888oOOOOO8oOOOO:OOOOO8OOoOO8888888
+###8888O..:::ooOOO88888OOOOOOOOOO8OOOOOOO888888O            :OOoOOOOO8888O8OO888o88888888o888888888
+###888o:...::ooOOO888888OOOOOOOOO888OOOOO888888.            .O888O888O888O88O888:88888888o888888888
+888888o    ..::ooOO8888OOOOOOOOOO8888888888888o              o8888888O888OOO8888:8Oo888OoO888888888
+'''
+PS1='\033[92m[\033[91mRoot@\033[93mTorturer\033[40m \w\033[92m]\$ '
